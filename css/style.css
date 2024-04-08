@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    background-image: linear-gradient(to right, grey 30%, lightgrey );
+    box-shadow: 10px 10px 10px;
+    
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.header {
+    height: 100px;
+    text-align: center;
+   
+}
+
+.display {
+   background-color: black;
+}
+
+.display-text {
+    font-family:seven segment;font-style:normal;
+    font-weight:400;src:local('Seven Segment'),url('https://fonts.cdnfonts.com/s/71640/Seven Segment.woff') format('woff');
+    color:hsl(164deg 92.42% 41.37%) ;
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 45px;
+}
+
+.container-button {
+    margin: 10px;
+}
+
+.container-button-left {
+    
+    width: 80%;
+    gap: 15px;
+}
+
+.button-number {
+    width: calc(100% / 3 - 10px);
+    padding: 15px;
+    border-radius: 5px;
+    background-color:rgb(187 187 187) ;
+    
+    
+}
+
+.zero {
+    flex-grow: 1;
+}
+
+.same {
+    background-color:rgb(255 159 10) ;
+    color: white;
+}
+
+.container-button-rigth {
+    width: 20%;
+    justify-content: center;
+    gap: 15px;
+    
+    
+}
+
+.button-operator {
+    width: 80px;
+    margin-left: 15px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.blue-operator {
+    background-color:rgb(119 168 176) ;
+}
+
+.button-number:hover,
+.button-operator:hover {
+   background-color: lightgrey;
+}
+
+button {
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
