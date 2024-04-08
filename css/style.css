@@ -28,6 +28,10 @@
 
 .display {
    background-color: black;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
 }
 
 .display-text {
@@ -35,8 +39,7 @@
     font-weight:400;src:local('Seven Segment'),url('https://fonts.cdnfonts.com/s/71640/Seven Segment.woff') format('woff');
     color:hsl(164deg 92.42% 41.37%) ;
     font-size: 40px;
-    padding: 20px;
-    margin-left: 45px;
+    margin-right: 30px;
 }
 
 .container-button {
@@ -54,15 +57,23 @@
     padding: 15px;
     border-radius: 5px;
     background-color:rgb(187 187 187) ;
-    
-    
+        
 }
 
 .zero {
+    width: calc(100% / 3 - 10px);
+    padding: 15px;
+    border-radius: 5px;
+    background-color:rgb(187 187 187) ;
     flex-grow: 1;
 }
 
+
+
 .same {
+    width: calc(100% / 3 - 10px);
+    padding: 15px;
+    border-radius: 5px;
     background-color:rgb(255 159 10) ;
     color: white;
 }
@@ -83,10 +94,20 @@
     
 }
 
+.c-perator {
+    width: 80px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color:rgb(255 159 10) ;
+}
+
 .blue-operator {
     background-color:rgb(119 168 176) ;
 }
 
+.c-perator:hover,
+.zero:hover,
+.same:hover,
 .button-number:hover,
 .button-operator:hover {
    background-color: lightgrey;
