@@ -1,6 +1,6 @@
 
 function btnNumeri() {
-    if(displayIn.innerHTML.length <=6) {
+    if(displayIn.innerHTML.length <=10) {
         // dammi il valore di questo pulsante cliccato e salvalo nel display
         displayIn.innerHTML += this.innerHTML;
     } 
