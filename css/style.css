@@ -32,6 +32,7 @@
    display: flex;
    align-items: center;
    justify-content: end;
+   
 }
 
 .display-text {
@@ -94,7 +95,7 @@
     
 }
 
-.c-perator {
+.c-operator {
     width: 80px;
     margin-left: 15px;
     color: white;
