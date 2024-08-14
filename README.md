@@ -13,3 +13,6 @@ partiamo da un display vuoto
   - tramite switch scelgo l 'operazione da fare
   - scrivo il totale sul display
 
+
+  
+
